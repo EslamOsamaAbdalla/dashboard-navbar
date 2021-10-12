@@ -1,0 +1,200 @@
+:root {
+  --main-color: #1b262c;
+  --secound-color: #0f4c75;
+  --third-color: #bbe1fa;
+  --fourth-color: #3282b8;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+/******* aside  *********/
+aside {
+  background-color: var(--main-color);
+  position: fixed;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
+}
+/******* aside  *********/
+/******* nav-logo  *********/
+#nav-logo {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: var(--third-color);
+  display: flex;
+  align-items: center;
+}
+#nav-logo img {
+  width: 50px;
+  height: 50px;
+}
+#nav-logo span {
+  margin-left: 10px;
+}
+/******* nav-logo  *********/
+/******* switch-navbar  *********/
+#switch-navbar {
+  background-color: var(--secound-color);
+  color: var(--third-color);
+  width: 40px;
+  height: 20px;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0;
+  margin-left: 20px;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#switch-navbar:hover {
+  background-color: var(--fourth-color);
+}
+/******* switch-navbar  *********/
+/******* title-sprate  *********/
+.title-sprate {
+  font-size: 13px;
+  margin-left: 20px;
+  padding: 10px 0;
+  color: var(--third-color);
+  user-select: none;
+}
+/******* title-sprate  *********/
+/******* nav-items  *********/
+#nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+#nav-items ul {
+  margin: 5px 10px;
+  padding: 10px;
+}
+#nav-items ul > a {
+  background-color: var(--secound-color);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#nav-items ul > a:hover {
+  background-color: var(--fourth-color);
+}
+#nav-items ul a {
+  color: var(--third-color);
+  text-decoration: none;
+}
+#nav-items ul a span {
+  margin-left: 10px;
+}
+/******* nav-items  *********/
+/******* nav-tools  *********/
+#nav-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#nav-tools ul {
+  list-style: none;
+  padding-left: 20px;
+}
+#nav-tools ul li a {
+  background-color: var(--secound-color);
+  color: var(--third-color);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#nav-tools ul li a:hover {
+  background-color: var(--fourth-color);
+}
+#nav-tools ul li a span {
+  margin-left: 10px;
+}
+/******* nav-tools  *********/
+/******* nav-profile  *********/
+#nav-profile {
+  background-color: var(--secound-color);
+  color: var(--third-color);
+  margin-top: auto;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0 0 20px 0;
+  -webkit-border-radius: 0 0 20px 0;
+  -moz-border-radius: 0 0 20px 0;
+  -ms-border-radius: 0 0 20px 0;
+  -o-border-radius: 0 0 20px 0;
+}
+#profile-data {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-family: inherit;
+}
+#profile-img {
+  background-color: var(--fourth-color);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#profile-img svg,
+#profile-img img {
+  width: 80%;
+  height: 80%;
+}
+#profile-details {
+  background-color: var(--third-color);
+  color: var(--secound-color);
+  cursor: pointer;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#profile-details:hover {
+  background-color: var(--fourth-color);
+  color: var(--third-color);
+}
+/******* nav-profile  *********/
